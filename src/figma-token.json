@@ -1,0 +1,51 @@
+{
+  "global": {
+    "Fuschia-100": {
+      "value": "#EF5DA8",
+      "type": "color"
+    },
+    "Fuschia-80": {
+      "value": "#F178B6",
+      "type": "color"
+    },
+    "Fuschia-60": {
+      "value": "#FCDDEC",
+      "type": "color"
+    },
+    "Header 1": {
+      "value": {
+        "fontFamily": "Work Sans",
+        "fontWeight": "Bold",
+        "letterSpacing": "34"
+      },
+      "type": "typography",
+      "description": "Headding"
+    },
+    "Header2": {
+      "value": {
+        "fontFamily": "Work Sans",
+        "fontWeight": "Bold",
+        "letterSpacing": "20",
+        "lineHeight": "-2%"
+      },
+      "type": "typography",
+      "description": "Headding2"
+    },
+    "Body": {
+      "value": {
+        "fontFamily": "Work Sans",
+        "fontWeight": "Regular",
+        "lineHeight": "-2%",
+        "letterSpacing": "13"
+      },
+      "type": "typography",
+      "description": "for body description"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
