@@ -1,0 +1,22 @@
+{
+  "name": "designtoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbyd0208/designToken.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abbyd0208/designToken/issues"
+  },
+  "homepage": "https://github.com/abbyd0208/designToken#readme",
+  "devDependencies": {
+    "style-dictionary": "^3.8.0"
+  }
+}
