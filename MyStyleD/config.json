@@ -3,7 +3,7 @@
     "platforms": {
       "scss": {
         "transformGroup": "scss",
-        "prefix": "sd",
+        "prefix": "",
         "buildPath": "build/scss/",
         "files": [{
           "destination": "_variables.scss",
