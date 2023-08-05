@@ -29,10 +29,50 @@
       "type": "color"
     }
   },
+  "font": {
+    "Work Sans": {
+      "value": "Work Sans",
+      "type": "fontFamilies"
+    },
+    "Headding": {
+      "value": {
+        "fontFamily": "{Work Sans}",
+        "fontWeight": "{Bold}",
+        "fontSize": "34"
+      },
+      "type": "typography",
+      "description": "headding"
+    },
+    "Headding2": {
+      "value": {
+        "fontFamily": "{Work Sans}",
+        "fontWeight": "{Bold}",
+        "fontSize": "30"
+      },
+      "type": "typography"
+    },
+    "Bold": {
+      "value": "bold",
+      "type": "fontWeights"
+    },
+    "Medium": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "Body": {
+      "value": {
+        "fontFamily": "{Work Sans}",
+        "fontWeight": "{Medium}",
+        "fontSize": "20"
+      },
+      "type": "typography"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "color"
+      "color",
+      "font"
     ]
   }
 }
