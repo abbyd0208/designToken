@@ -49,9 +49,9 @@
     },
     "Body": {
       "value": {
-        "fontSize": "20",
         "fontFamily": "Work Sans",
-        "fontWeight": "Medium"
+        "fontWeight": "Medium",
+        "fontSize": "22"
       },
       "type": "typography"
     }
