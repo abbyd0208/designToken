@@ -66,6 +66,10 @@
     "light-purple": {
       "value": "#A5A6F6",
       "type": "color"
+    },
+    "primary-green": {
+      "value": "#0aa868",
+      "type": "color"
     }
   },
   "$themes": [],
