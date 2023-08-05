@@ -1,5 +1,5 @@
 {
-    "source": ["tokens/**/*.json"],
+    "source": ["tokens/*.json"],
     "platforms": {
       "scss": {
         "transformGroup": "scss",
@@ -10,14 +10,6 @@
           "format": "scss/variables"
         }],
         "actions": ["copy_assets"]
-      },
-      "android": {
-        "transforms": ["attribute/cti", "name/cti/snake", "color/hex", "size/remToSp", "size/remToDp"],
-        "buildPath": "build/android/src/main/res/values/",
-        "files": [{
-          "destination": "style_dictionary_colors.xml",
-          "format": "android/colors"
-        }]
       }
     }
   }
