@@ -1,5 +1,5 @@
 {
-  "color": {
+  "token": {
     "color": {
       "primary-pink": {
         "value": "#EF5DA8",
@@ -33,27 +33,26 @@
         "value": "#888",
         "type": "color"
       }
-    },
+    }
+  },
+  "button": {
     "button": {
-      "default": {
-        "value": "{color.primary-pink}",
-        "type": "color"
-      },
-      "hover": {
-        "value": "{color.light-pink}",
-        "type": "color"
-      },
-      "disable": {
-        "value": "{color.gray}",
-        "type": "color"
+      "primary": {
+        "background": {
+          "value": "{color.primary-green}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{color.gray}",
+          "type": "color"
+        }
       }
     }
   },
-  "button": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "color",
+      "token",
       "button"
     ]
   }
