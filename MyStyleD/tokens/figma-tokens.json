@@ -8,16 +8,16 @@
       "value": "#F178B6",
       "type": "color"
     },
+    "secondary-purple": {
+      "value": "#7879F1",
+      "type": "color"
+    },
     "light-pink": {
       "value": "#FCDDEC",
       "type": "color"
     },
     "primary-purple": {
       "value": "#5D5FEF",
-      "type": "color"
-    },
-    "secondary-purple": {
-      "value": "#7879F1",
       "type": "color"
     },
     "light-purple": {
@@ -27,40 +27,32 @@
     "primary-green": {
       "value": "#0aa868",
       "type": "color"
+    },
+    "gray": {
+      "value": "#888",
+      "type": "color"
+    },
+    "button": {
+      "default": {
+        "value": "{primary-pink}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{light-pink}",
+        "type": "color"
+      },
+      "disable": {
+        "value": "{gray}",
+        "type": "color"
+      }
     }
   },
-  "font": {
-    "Headding": {
-      "value": {
-        "fontSize": "34",
-        "fontFamily": "Work Sans",
-        "fontWeight": "Black"
-      },
-      "type": "typography",
-      "description": "headding"
-    },
-    "Headding2": {
-      "value": {
-        "fontFamily": "Work Sans",
-        "fontWeight": "Bold",
-        "fontSize": "30"
-      },
-      "type": "typography"
-    },
-    "Body": {
-      "value": {
-        "fontFamily": "Work Sans",
-        "fontWeight": "Medium",
-        "fontSize": "22"
-      },
-      "type": "typography"
-    }
-  },
+  "button": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "color",
-      "font"
+      "button"
     ]
   }
 }
