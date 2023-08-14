@@ -1,6 +1,6 @@
 {
   "token": {
-    "color": {
+    "base": {
       "primary-pink": {
         "value": "#EF5DA8",
         "type": "color"
@@ -33,17 +33,35 @@
         "value": "#888",
         "type": "color"
       }
+    },
+    "button": {
+      "background": {
+        "value": "{base.primary-pink}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{base.light-pink}",
+        "type": "color"
+      }
+    },
+    "headding": {
+      "value": {
+        "fontFamily": "Arial",
+        "fontWeight": "Bold",
+        "fontSize": "40"
+      },
+      "type": "typography"
     }
   },
   "button": {
     "button": {
       "primary": {
         "background": {
-          "value": "{color.primary-green}",
+          "value": "{base.primary-green}",
           "type": "color"
         },
         "text": {
-          "value": "{color.gray}",
+          "value": "{base.gray}",
           "type": "color"
         }
       }
