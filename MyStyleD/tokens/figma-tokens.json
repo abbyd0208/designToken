@@ -71,11 +71,26 @@
       }
     }
   },
+  "font": {
+    "Akaya": {
+      "value": {
+        "fontFamily": "Akaya Telivigala"
+      },
+      "type": "typography"
+    },
+    "Actor": {
+      "value": {
+        "fontFamily": "Actor"
+      },
+      "type": "typography"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "token",
-      "button"
+      "button",
+      "font"
     ]
   }
 }
