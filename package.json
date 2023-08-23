@@ -18,5 +18,8 @@
   "homepage": "https://github.com/abbyd0208/designToken#readme",
   "devDependencies": {
     "style-dictionary": "^3.8.0"
+  },
+  "dependencies": {
+    "token-transformer": "^0.0.33"
   }
 }
