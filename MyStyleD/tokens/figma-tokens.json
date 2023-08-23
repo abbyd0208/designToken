@@ -38,16 +38,6 @@
         "type": "color"
       }
     },
-    "button": {
-      "background": {
-        "value": "{base.primary-pink}",
-        "type": "color"
-      },
-      "text": {
-        "value": "{base.light-pink}",
-        "type": "color"
-      }
-    },
     "headding": {
       "value": {
         "fontFamily": "Arial",
@@ -59,15 +49,13 @@
   },
   "button": {
     "button": {
-      "primary": {
-        "background": {
-          "value": "{base.primary-green}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{base.gray}",
-          "type": "color"
-        }
+      "primary-background": {
+        "value": "{base.primary-pink}",
+        "type": "color"
+      },
+      "primary-text": {
+        "value": "{base.light-pink}",
+        "type": "color"
       }
     }
   },
