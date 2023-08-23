@@ -38,16 +38,14 @@
         "type": "color"
       }
     },
-    "headding": {
+    "heading": {
       "value": {
         "fontFamily": "Arial",
         "fontWeight": "Bold",
         "fontSize": "40"
       },
       "type": "typography"
-    }
-  },
-  "button": {
+    },
     "button": {
       "primary-background": {
         "value": "{base.primary-pink}",
@@ -58,27 +56,5 @@
         "type": "color"
       }
     }
-  },
-  "font": {
-    "Akaya": {
-      "value": {
-        "fontFamily": "Akaya Telivigala"
-      },
-      "type": "typography"
-    },
-    "Actor": {
-      "value": {
-        "fontFamily": "Actor"
-      },
-      "type": "typography"
-    }
-  },
-  "$themes": [],
-  "$metadata": {
-    "tokenSetOrder": [
-      "token",
-      "button",
-      "font"
-    ]
   }
 }
