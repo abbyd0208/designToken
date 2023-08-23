@@ -1,5 +1,23 @@
 const fs = require("fs");
-const testJson = require("./tokens/figma-tokens.json");
+const jsonStr = require("./tokens/figma-tokens.json");
+
+const { transformTokens } = require('token-transformer');
+
+const transformerOptions = {
+    expandTypography: true,
+    expandShadow: true,
+    expandComposition: true,
+    expandBorder: true,
+    preserveRawValue: false,
+    throwErrorWhenNotResolved:  true,
+    resolveReferences:true
+}
+
+const setsToUse = [];
+
+const resolved = transformTokens(jsonStr, setsToUse, [], transformerOptions);
+
+console.log('resolved', resolved)
 
 function processJsonValue(value, parentKey = "") {
  let scssContent = "";
@@ -19,6 +37,6 @@ function processJsonValue(value, parentKey = "") {
  return scssContent;
 }
 
-let scssContent = processJsonValue(testJson);
+let scssContent = processJsonValue(resolved);
 fs.writeFileSync("test.module.scss", scssContent);
 console.log("Conversion complete.");
