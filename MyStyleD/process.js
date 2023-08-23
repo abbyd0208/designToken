@@ -1,3 +1,5 @@
+// 用這隻 下指令 node process.js
+
 const fs = require("fs");
 const jsonStr = require("./tokens/figma-tokens.json");
 
