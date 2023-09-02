@@ -32,10 +32,6 @@
       "gray": {
         "value": "#888",
         "type": "color"
-      },
-      "primaryGreen": {
-        "value": "#489e6a",
-        "type": "color"
       }
     },
     "headding": {
