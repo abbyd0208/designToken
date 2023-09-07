@@ -75,7 +75,7 @@
 
 
 const fs = require("fs");
-const testJson = require("./tokens/figma-tokens.json");
+const testJson = require("./tokens/figma-tokens2.json");
 
 function processJsonValue(value, parentKey = "") {
   let scssContent = "";
