@@ -1,80 +1,70 @@
 {
   "token": {
-    "base": {
-      "primary-pink": {
-        "value": "#EF5DA8",
-        "type": "color"
-      },
-      "secondary-pink": {
-        "value": "#F178B6",
-        "type": "color"
-      },
-      "secondary-purple": {
-        "value": "#7879F1",
-        "type": "color"
-      },
-      "light-pink": {
-        "value": "#FCDDEC",
-        "type": "color"
-      },
-      "primary-purple": {
-        "value": "#5D5FEF",
-        "type": "color"
-      },
-      "light-purple": {
-        "value": "#A5A6F6",
-        "type": "color"
-      },
-      "primary-green": {
-        "value": "#0aa868",
-        "type": "color"
-      },
-      "gray": {
-        "value": "#888",
-        "type": "color"
-      }
-    },
-    "headding": {
+    "headding-1": {
       "value": {
         "fontFamily": "Arial",
         "fontWeight": "Bold",
-        "fontSize": "40"
-      },
-      "type": "typography"
-    }
-  },
-  "button": {
-    "button": {
-      "primary-background": {
-        "value": "{base.primary-pink}",
-        "type": "color"
-      },
-      "primary-text": {
-        "value": "{base.light-pink}",
-        "type": "color"
-      }
-    }
-  },
-  "font": {
-    "Akaya": {
-      "value": {
-        "fontFamily": "Akaya Telivigala"
+        "fontSize": "64"
       },
       "type": "typography"
     },
-    "Actor": {
+    "headding-2": {
       "value": {
-        "fontFamily": "Actor"
+        "fontFamily": "Arial",
+        "fontWeight": "Bold",
+        "fontSize": "56"
       },
       "type": "typography"
+    },
+    "headding-3": {
+      "value": {
+        "fontFamily": "Arial",
+        "fontWeight": "Bold",
+        "fontSize": "48"
+      },
+      "type": "typography"
+    },
+    "base": {
+      "primary": {
+        "60": {
+          "value": "#fcddec",
+          "type": "color"
+        },
+        "80": {
+          "value": "#f178b6",
+          "type": "color"
+        },
+        "100": {
+          "value": "#ef5da8",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "60": {
+          "value": "#a5a6f6",
+          "type": "color"
+        },
+        "80": {
+          "value": "#7879f1",
+          "type": "color"
+        },
+        "100": {
+          "value": "#5d5fef",
+          "type": "color"
+        }
+      },
+      "button": {
+        "background": {
+          "value": "{base.primary.80}",
+          "type": "color"
+        }
+      }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "token",
-      "button",
-      "font"
+      "token"
     ]
   }
 }
