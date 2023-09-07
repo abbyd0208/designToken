@@ -39,22 +39,37 @@
       }
     },
     "heading": {
+
       "value": {
         "fontFamily": "Arial",
         "fontWeight": "Bold",
-        "fontSize": "40"
+        "fontSize": "64"
       },
       "type": "typography"
     },
-    "button": {
-      "primary-background": {
-        "value": "{base.primary-pink}",
-        "type": "color"
+
+    "headding-2": {
+      "value": {
+        "fontFamily": "Arial",
+        "fontWeight": "Bold",
+        "fontSize": "56"
       },
-      "primary-text": {
-        "value": "{base.light-pink}",
-        "type": "color"
-      }
-    }
+      "type": "typography"
+    },
+    "headding-3": {
+      "value": {
+        "fontFamily": "Arial",
+        "fontWeight": "Bold",
+        "fontSize": "48"
+      },
+      "type": "typography"
+    },
+    
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "token"
+    ]
+
   }
 }
