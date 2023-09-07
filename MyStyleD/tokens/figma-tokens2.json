@@ -1,5 +1,60 @@
 {
-  "global": {},
+  "global": {
+    "base": {
+      "primary": {
+        "60": {
+          "value": "#fcddec",
+          "type": "color"
+        },
+        "80": {
+          "value": "#f178b6",
+          "type": "color"
+        },
+        "100": {
+          "value": "#ef5da8",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "60": {
+          "value": "#a5a6f6",
+          "type": "color"
+        },
+        "80": {
+          "value": "#7879f1",
+          "type": "color"
+        },
+        "100": {
+          "value": "#5d5fef",
+          "type": "color"
+        }
+      }
+    },
+    "Headding1": {
+      "value": {
+        "fontFamily": "Arial",
+        "fontWeight": "Bold",
+        "fontSize": "64"
+      },
+      "type": "typography"
+    },
+    "Headding2": {
+      "value": {
+        "fontFamily": "Arial",
+        "fontWeight": "Bold",
+        "fontSize": "56"
+      },
+      "type": "typography"
+    },
+    "Headding3": {
+      "value": {
+        "fontFamily": "Arial",
+        "fontWeight": "Bold",
+        "fontSize": "48"
+      },
+      "type": "typography"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
