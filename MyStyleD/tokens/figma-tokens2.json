@@ -28,12 +28,6 @@
           "value": "#5d5fef",
           "type": "color"
         }
-      },
-      "button": {
-        "background": {
-          "value": "{base.secondary.100}",
-          "type": "color"
-        }
       }
     },
     "Headding1": {
