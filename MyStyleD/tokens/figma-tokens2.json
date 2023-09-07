@@ -1,5 +1,5 @@
 {
-  "global": {
+  "Token": {
     "base": {
       "primary": {
         "60": {
@@ -58,7 +58,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "Token"
     ]
   }
 }
