@@ -131,6 +131,7 @@ function getNestedValue(obj, path) {
   return nestedValue.value;
 }
 
-let scssContent = processJsonValue(testJson);
+let scssContent = processJsonValue(testJson.Token);
 fs.writeFileSync("test.module.scss", scssContent);
 console.log("Conversion complete.");
+
