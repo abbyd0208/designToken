@@ -1,6 +1,45 @@
 {
   "token": {
-    "headding-1": {
+    "base": {
+      "primary-pink": {
+        "value": "#EF5DA8",
+        "type": "color"
+      },
+      "secondary-pink": {
+        "value": "#F178B6",
+        "type": "color"
+      },
+      "secondary-purple": {
+        "value": "#7879F1",
+        "type": "color"
+      },
+      "light-pink": {
+        "value": "#FCDDEC",
+        "type": "color"
+      },
+      "primary-purple": {
+        "value": "#5D5FEF",
+        "type": "color"
+      },
+      "light-purple": {
+        "value": "#A5A6F6",
+        "type": "color"
+      },
+      "primary-green": {
+        "value": "#0aa868",
+        "type": "color"
+      },
+      "gray": {
+        "value": "#888",
+        "type": "color"
+      },
+      "primaryGreen": {
+        "value": "#489e6a",
+        "type": "color"
+      }
+    },
+    "heading": {
+
       "value": {
         "fontFamily": "Arial",
         "fontWeight": "Bold",
@@ -8,6 +47,7 @@
       },
       "type": "typography"
     },
+
     "headding-2": {
       "value": {
         "fontFamily": "Arial",
@@ -24,47 +64,12 @@
       },
       "type": "typography"
     },
-    "base": {
-      "primary": {
-        "60": {
-          "value": "#fcddec",
-          "type": "color"
-        },
-        "80": {
-          "value": "#f178b6",
-          "type": "color"
-        },
-        "100": {
-          "value": "#ef5da8",
-          "type": "color"
-        }
-      },
-      "secondary": {
-        "60": {
-          "value": "#a5a6f6",
-          "type": "color"
-        },
-        "80": {
-          "value": "#7879f1",
-          "type": "color"
-        },
-        "100": {
-          "value": "#5d5fef",
-          "type": "color"
-        }
-      },
-      "button": {
-        "background": {
-          "value": "{base.primary.80}",
-          "type": "color"
-        }
-      }
-    }
-  },
+    
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "token"
     ]
+
   }
 }
