@@ -31,7 +31,7 @@
       },
       "button": {
         "background": {
-          "value": "{base.primary.80}",
+          "value": "{base.secondary.100}",
           "type": "color"
         }
       }
